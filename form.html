@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML>
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 20%;
+  background-color:green;
+  color: black;
+  padding: 12px 16px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color:gainsboro ;
+}
+
+div {
+  border-radius: 5px;
+  background-color:ghostwhite;
+  padding: 20px;
+}
+
+</style>
+<body>
+
+<h3 style="text-align: center;"> Form</h3>
+
+<div>
+
+  <form action="">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+    <label for="Select a country">Select a Country</label>
+  <select id="Select a country" name="Select a country">
+    <option value="Pakistan">Pakistan</option>
+      <option value="Australia">Australia</option>
+      <option value="Canada">Canada</option>
+      <option value="Usa">USA</option>
+  </select>
+
+      <label for=" Select a course">Select a Course</label>
+    <select id="Select a course"  name="Select a course">
+    <option value="Web Design And Development">Web Design And Development</option>
+      <option value="Mobile Application Development">Moblie Application Development</option>
+      <option value="Network Technologies">Network Technologies</option>
+      <option value="Teleacommunications Technologies">Telecommunications Technologies</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
