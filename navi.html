@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+  background-color: ghostwhite;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gainsboro;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+}
+
+li:last-child {
+  border-right: red;
+}
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover:not(.active){
+  background-color: ghostwhite;
+}
+
+.active {
+  background-color:gainsboro;
+}
+li a:hover {
+  background-color: ghostwhite ;
+}
+</style>
+</head>
+<body>
+	<a href="#"><img src="uet.bb.jpg"></a>
+		<h1 style="text-align: center;">Horizontal</h1>
+	<p style="text-align: center;">Navigation Bar</p>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+    <li><a href="#About">About</a></li>
+  <li style="float:right"><a href="#search">search</a></li>
+</ul>
+
+</body>
+</html>
+
