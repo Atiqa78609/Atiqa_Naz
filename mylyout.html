@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+/* Style the header */
+.header {
+  padding: 70px;
+  margin:0;
+  height: 250px;
+  text-align: center;
+  background-image: url(webs.jpg);
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: gainsboro;
+  color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: right;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 75%;
+    padding: 0;
+  }
+}
+/* Footer */
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 480px;
+  background-image: url(kk.png);
+  
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Contect</a>
+  <a href="#">About</a>
+    <a style="float: right;">search</a>
+
+</div>
+    
+  <h1>My first website</h1>
+<img src="jv.jpg">
+
+ 
+      <h2>what is detveloper?</h2>
+      
+                 <h2> A standard Software Developer job description should include, but not be limited to: Researching, designing,implementing and managing software programs. Testing and evaluating new programs. ... Working closely with other developers, UX designers, business and systems analysts.</h2>
+ <p> A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary.</p>
+          </div>
+      </div>
+  </div>
+    
+      <h2>  Web developers need a combination of graphic design skills</h2>
+      <p>A web designer's job duties cover all aspects of creating a website. Upon meeting with clients and assessing their needs, web designers help create and maintain the product. Their duties include, but aren't limited to, the following: Writing and editing content. Designing webpage layout</p>
+      
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Follow Me</h2>
+    <img src="dd.jpg">
+    <h3>Contect</h3><h4>03008086784</h4>
+</div>
+</div>
+        <img src="we.png"><div class="row">
+    <div class="card">
+      <h2>Web Developer jobs</h2>
+      <h5>A web designer's job duties cover all aspects of creating a website.</h5>
+      <img src="imag.jpg">
+      <h5>Responsibilities
+Execute full software development life cycle (SDLC)
+Develop flowcharts, layouts and documentation to identify requirements and solutions.
+Write well-designed, testable code.
+Produce specifications and determine operational feasibility.
+Integrate software components into a fully functional software system. Software developer. Becoming a software developer, also known as a computer programmer, you'll be playing a key role in the design, installation, testing and maintenance of software systems. The programs you create are likely to help businesses be more efficient and provide a better service.</h5>
+    </div>
+      <div class="footer">
+</div>
+
+</body>
+</html>
