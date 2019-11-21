@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For Loops</title>
+</head>
+<body>
+    <h1 style="text-align: center;">My Best Friends Names:</h1>
+    <p id="demo" style="text-align: center;"></p>
+
+    <script type="text/javascript">
+    	var names = ["Fatima", "Hareem", "Nida", "Khadija", "Kashaf", "Ariza", "Sehar", "Nimal", "Maria", "Alishba"];
+    	var text = "";
+    	var i;
+    	for (i=0; i < names.length; i++) {
+    	text += names[i] + "<br />";
+    	}
+
+    	document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
